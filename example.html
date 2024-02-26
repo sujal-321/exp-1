@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html land="en">
+<head>
+    <script type="text/javascript">
+        function PlayVideo(){
+            var v=document.getElementsByTagName("video")[0];
+            v.play();
+        }
+
+    </script>
+    <title>git demo exp-1</title>
+</head>
+<body>
+    <form>
+        <video width="600" height="600" src="foo.mp4">
+        your browser does not support the video element.
+    </video>
+    <br />
+    <input type="button" onclick="PlayVideo();" value="Play">
+    </form>
+    <br />
+    <audio controls autoplay>
+        <source src="audio.wav" type="audio/wav">
+    </audio>
+</body>
+</html>
